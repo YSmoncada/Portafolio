@@ -9,7 +9,7 @@ colorama==0.4.6
 cookiecutter==2.6.0
 Django==5.2.4
 django-browser-reload==1.18.0
-gunicorn==22.0.0; sys_platform != "win32"
+
 idna==3.10
 Jinja2==3.1.6
 markdown-it-py==3.0.0
@@ -17,7 +17,7 @@ MarkupSafe==3.0.2
 mdurl==0.1.2
 Pygments==2.19.2
 python-dateutil==2.9.0.post0
-psycopg2-binary==2.9.9; sys_platform != "win32"
+
 python-slugify==8.0.4
 PyYAML==6.0.2
 requests==2.32.4
