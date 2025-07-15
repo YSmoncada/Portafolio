@@ -1,8 +1,7 @@
-from . import views
-from django.urls import path, include
+from django.contrib import admin
+from django.urls import path
+from . import views  # Importa las vistas del mismo directorio
 
 urlpatterns = [
-    path('', views.home, name='home'),
-    path("__reload__/", include("django_browser_reload.urls")),
-    
-    ]
+    path('', views.index, name='home'),  # Asocia la vista 'index' a la ruta raíz '/'
+]
