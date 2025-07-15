@@ -6,6 +6,9 @@ pip install -r requirements.txt
 # Navega a la carpeta que contiene manage.py
 cd myapp
 
+# Construye los assets de Tailwind CSS. ¡Este paso es crucial para producción!
+python manage.py tailwind build
+
 # Ejecuta los comandos de Django desde dentro de la carpeta myapp
 python manage.py collectstatic --no-input --clear
 python manage.py migrate
